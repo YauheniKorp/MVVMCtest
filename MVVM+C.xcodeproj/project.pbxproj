@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03B186601713DB3339EFADF3 /* Pods_MVVM_C.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96ADD2E3339750DDAF963D5A /* Pods_MVVM_C.framework */; };
 		84CA17C32719C91700F07918 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA17C22719C91700F07918 /* AppDelegate.swift */; };
 		84CA17C52719C91700F07918 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA17C42719C91700F07918 /* SceneDelegate.swift */; };
-		84CA17C72719C91700F07918 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA17C62719C91700F07918 /* ViewController.swift */; };
-		84CA17CA2719C91700F07918 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CA17C82719C91700F07918 /* Main.storyboard */; };
 		84CA17CC2719C92400F07918 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CA17CB2719C92400F07918 /* Assets.xcassets */; };
 		84CA17CF2719C92400F07918 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CA17CD2719C92400F07918 /* LaunchScreen.storyboard */; };
+		84CA17D7271DCAB700F07918 /* CoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA17D6271DCAB700F07918 /* CoordinatorType.swift */; };
+		84CA17D9271DCADF00F07918 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA17D8271DCADF00F07918 /* LoginCoordinator.swift */; };
+		84CA17DB271DCFA800F07918 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA17DA271DCFA800F07918 /* LoginViewController.swift */; };
+		84CA17DD271DCFB500F07918 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA17DC271DCFB500F07918 /* LoginViewModel.swift */; };
+		84CA1801271F4CF200F07918 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA1800271F4CF200F07918 /* BaseViewController.swift */; };
+		84CA1805271F5D3200F07918 /* SessionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA1804271F5D3200F07918 /* SessionRepository.swift */; };
+		84CA1808271F5D9D00F07918 /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA1807271F5D9D00F07918 /* UserSession.swift */; };
+		84CA180A271F5EB000F07918 /* UserState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA1809271F5EB000F07918 /* UserState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12A418155C6A3B5C7DFCDC69 /* Pods-MVVM+C.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM+C.release.xcconfig"; path = "Target Support Files/Pods-MVVM+C/Pods-MVVM+C.release.xcconfig"; sourceTree = "<group>"; };
+		1A2A7AA17B25D284E130A70D /* Pods-MVVM+C.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM+C.debug.xcconfig"; path = "Target Support Files/Pods-MVVM+C/Pods-MVVM+C.debug.xcconfig"; sourceTree = "<group>"; };
 		84CA17BF2719C91700F07918 /* MVVM+C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM+C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CA17C22719C91700F07918 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84CA17C42719C91700F07918 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84CA17C62719C91700F07918 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		84CA17C92719C91700F07918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84CA17CB2719C92400F07918 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84CA17CE2719C92400F07918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84CA17D02719C92400F07918 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CA17D6271DCAB700F07918 /* CoordinatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorType.swift; sourceTree = "<group>"; };
+		84CA17D8271DCADF00F07918 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		84CA17DA271DCFA800F07918 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		84CA17DC271DCFB500F07918 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		84CA1800271F4CF200F07918 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		84CA1804271F5D3200F07918 /* SessionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionRepository.swift; sourceTree = "<group>"; };
+		84CA1807271F5D9D00F07918 /* UserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
+		84CA1809271F5EB000F07918 /* UserState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserState.swift; sourceTree = "<group>"; };
+		96ADD2E3339750DDAF963D5A /* Pods_MVVM_C.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVM_C.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03B186601713DB3339EFADF3 /* Pods_MVVM_C.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		494C705753FA395828B03A7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A2A7AA17B25D284E130A70D /* Pods-MVVM+C.debug.xcconfig */,
+				12A418155C6A3B5C7DFCDC69 /* Pods-MVVM+C.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		84CA17B62719C91700F07918 = {
 			isa = PBXGroup;
 			children = (
 				84CA17C12719C91700F07918 /* MVVM+C */,
 				84CA17C02719C91700F07918 /* Products */,
+				494C705753FA395828B03A7F /* Pods */,
+				978ABA1A6AE2DE1B8A084065 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +86,67 @@
 			children = (
 				84CA17C22719C91700F07918 /* AppDelegate.swift */,
 				84CA17C42719C91700F07918 /* SceneDelegate.swift */,
-				84CA17C62719C91700F07918 /* ViewController.swift */,
-				84CA17C82719C91700F07918 /* Main.storyboard */,
+				84CA1806271F5D3900F07918 /* Repositories */,
+				84CA1802271F4DAD00F07918 /* Types */,
+				84CA1803271F4DC700F07918 /* Coordinators */,
+				84CA17DE271DCFBF00F07918 /* Screens */,
 				84CA17CB2719C92400F07918 /* Assets.xcassets */,
 				84CA17CD2719C92400F07918 /* LaunchScreen.storyboard */,
 				84CA17D02719C92400F07918 /* Info.plist */,
 			);
 			path = "MVVM+C";
+			sourceTree = "<group>";
+		};
+		84CA17DE271DCFBF00F07918 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				84CA17DF271DCFC800F07918 /* Login */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		84CA17DF271DCFC800F07918 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				84CA17DC271DCFB500F07918 /* LoginViewModel.swift */,
+				84CA17DA271DCFA800F07918 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		84CA1802271F4DAD00F07918 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				84CA1800271F4CF200F07918 /* BaseViewController.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		84CA1803271F4DC700F07918 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				84CA17D8271DCADF00F07918 /* LoginCoordinator.swift */,
+				84CA17D6271DCAB700F07918 /* CoordinatorType.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		84CA1806271F5D3900F07918 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				84CA1804271F5D3200F07918 /* SessionRepository.swift */,
+				84CA1807271F5D9D00F07918 /* UserSession.swift */,
+				84CA1809271F5EB000F07918 /* UserState.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		978ABA1A6AE2DE1B8A084065 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96ADD2E3339750DDAF963D5A /* Pods_MVVM_C.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84CA17D32719C92400F07918 /* Build configuration list for PBXNativeTarget "MVVM+C" */;
 			buildPhases = (
+				2C3F3384EC7CFDCA5114937D /* [CP] Check Pods Manifest.lock */,
 				84CA17BB2719C91700F07918 /* Sources */,
 				84CA17BC2719C91700F07918 /* Frameworks */,
 				84CA17BD2719C91700F07918 /* Resources */,
+				984D832AB285C430F48F68F3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +211,74 @@
 			files = (
 				84CA17CF2719C92400F07918 /* LaunchScreen.storyboard in Resources */,
 				84CA17CC2719C92400F07918 /* Assets.xcassets in Resources */,
-				84CA17CA2719C91700F07918 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C3F3384EC7CFDCA5114937D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVVM+C-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		984D832AB285C430F48F68F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVVM+C/Pods-MVVM+C-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVVM+C/Pods-MVVM+C-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MVVM+C/Pods-MVVM+C-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84CA17BB2719C91700F07918 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84CA17C72719C91700F07918 /* ViewController.swift in Sources */,
+				84CA17DB271DCFA800F07918 /* LoginViewController.swift in Sources */,
 				84CA17C32719C91700F07918 /* AppDelegate.swift in Sources */,
+				84CA17D9271DCADF00F07918 /* LoginCoordinator.swift in Sources */,
+				84CA17D7271DCAB700F07918 /* CoordinatorType.swift in Sources */,
+				84CA1801271F4CF200F07918 /* BaseViewController.swift in Sources */,
 				84CA17C52719C91700F07918 /* SceneDelegate.swift in Sources */,
+				84CA180A271F5EB000F07918 /* UserState.swift in Sources */,
+				84CA1808271F5D9D00F07918 /* UserSession.swift in Sources */,
+				84CA1805271F5D3200F07918 /* SessionRepository.swift in Sources */,
+				84CA17DD271DCFB500F07918 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		84CA17C82719C91700F07918 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84CA17C92719C91700F07918 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		84CA17CD2719C92400F07918 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +408,7 @@
 		};
 		84CA17D42719C92400F07918 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A2A7AA17B25D284E130A70D /* Pods-MVVM+C.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,7 +419,6 @@
 				INFOPLIST_FILE = "MVVM+C/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,6 +436,7 @@
 		};
 		84CA17D52719C92400F07918 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12A418155C6A3B5C7DFCDC69 /* Pods-MVVM+C.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,7 +447,6 @@
 				INFOPLIST_FILE = "MVVM+C/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
