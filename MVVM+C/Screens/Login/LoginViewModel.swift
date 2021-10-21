@@ -25,10 +25,12 @@ class LoginViewModel {
         _passwordFieldChanged.accept(text)
     }
     
+    lazy var loginFieldText = _loginFieldChanged.asDriver(onErrorJustReturn: "").startWith("")
+    
+    lazy var passwordFieldText = _passwordFieldChanged.asDriver(onErrorJustReturn: "").startWith("")
+    
     init() {
         
     }
 }
 
-let source = UITextField()
-source.s
